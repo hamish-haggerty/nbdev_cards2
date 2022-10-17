@@ -7,7 +7,7 @@ __all__ = ['foo', 'bar']
 import torch
 if torch.cuda.is_available():device='cuda'
 else:device='cpu'
-#import random
+import random
 #import os
 import numpy as np
 import math
