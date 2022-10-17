@@ -10,7 +10,7 @@ else:device='cpu'
 # import random
 #import os
 import numpy as np
-# import math
+import math
 
 # %% ../nbs/00_core.ipynb 4
 def foo(): pass
