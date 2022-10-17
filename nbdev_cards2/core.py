@@ -8,9 +8,9 @@ import torch
 if torch.cuda.is_available():device='cuda'
 else:device='cpu'
 import random
-import os
-import numpy as np
-import math
+# import os
+# import numpy as np
+# import math
 
 # %% ../nbs/00_core.ipynb 4
 def foo(): pass
