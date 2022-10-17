@@ -4,9 +4,12 @@
 __all__ = ['foo', 'bar']
 
 # %% ../nbs/00_core.ipynb 3
-def foo(): pass
+import torch
 
 # %% ../nbs/00_core.ipynb 4
+def foo(): pass
+
+# %% ../nbs/00_core.ipynb 5
 def bar():
     
     return 'hi'
