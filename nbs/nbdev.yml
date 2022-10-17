@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_cards2"
+  site-url: "https://hamish-haggerty.github.io/nbdev_cards2"
+  description: "A sample of how to create a deck of cards"
+  repo-branch: main
+  repo-url: "https://github.com/hamish-haggerty/nbdev_cards2"
