@@ -4,9 +4,9 @@
 __all__ = ['foo', 'bar']
 
 # %% ../nbs/00_core.ipynb 3
-import torch
-if torch.cuda.is_available():device='cuda'
-else:device='cpu'
+# import torch
+# if torch.cuda.is_available():device='cuda'
+# else:device='cpu'
 #import random
 # import os
 # import numpy as np
