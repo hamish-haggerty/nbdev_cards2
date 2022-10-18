@@ -17,7 +17,7 @@ pip install nbdev_cards2
 Fill me in please! Don’t forget code examples:
 
 ``` python
-1+1
+C_z1z2
 ```
 
-    2
+    <function nbdev_cards2.core.C_z1z2(z1norm, z1norm_2, z2norm, z2norm_2, bs)>

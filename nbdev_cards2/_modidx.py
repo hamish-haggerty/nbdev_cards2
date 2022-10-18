@@ -17,5 +17,10 @@ d = { 'settings': { 'branch': 'main',
                                        'nbdev_cards2.base_rbt.seed_everything': ( 'base_rbt.html#seed_everything',
                                                                                   'nbdev_cards2/base_rbt.py')},
             'nbdev_cards2.core': { 'nbdev_cards2.core.C_z1z2': ('core.html#c_z1z2', 'nbdev_cards2/core.py'),
-                                   'nbdev_cards2.core.bar': ('core.html#bar', 'nbdev_cards2/core.py'),
-                                   'nbdev_cards2.core.foo': ('core.html#foo', 'nbdev_cards2/core.py')}}}
+                                   'nbdev_cards2.core.Cdiff_Sup': ('core.html#cdiff_sup', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Cdiff_Sup.__call__': ('core.html#cdiff_sup.__call__', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Cdiff_Sup.__init__': ('core.html#cdiff_sup.__init__', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Cdiff_Sup.inner_step': ('core.html#cdiff_sup.inner_step', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Max_Corr': ('core.html#max_corr', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Max_Corr.__init__': ('core.html#max_corr.__init__', 'nbdev_cards2/core.py'),
+                                   'nbdev_cards2.core.Max_Corr.forward': ('core.html#max_corr.forward', 'nbdev_cards2/core.py')}}}
