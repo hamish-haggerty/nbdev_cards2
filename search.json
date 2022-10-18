@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_cards2",
+    "section": "",
+    "text": "Max_Corr??\nThis file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev_cards2",
+    "section": "Install",
+    "text": "Install\npip install nbdev_cards2"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_cards2",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\nC_z1z2\n\n\nMax_Corr\n\n\nps=100\nmax_corr = Max_Corr(ps=ps)\n\nMax_Corr(\n  (fc1): Linear(in_features=100, out_features=100, bias=True)\n  (fc2): Linear(in_features=100, out_features=100, bias=True)\n  (fc3): Linear(in_features=100, out_features=100, bias=True)\n  (fc4): Linear(in_features=100, out_features=100, bias=True)\n  (sigmoid): Sigmoid()\n  (relu): ReLU()\n)"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nC_z1z2\n\n C_z1z2 (z1norm, z1norm_2, z2norm, z2norm_2, bs)\n\nInput: bsd shaped inputs z, which are bs-samples from d-dim random variables. Return: 0.5corr(z1norm,z1norm_2) + 0.5corr(z2norm,z2norm_2) which will be dd dimensional, as sum of cross correlation matrices.\nAs an example, suppose \\(bs=32\\) and \\(d=100\\). Then we can verify that the output will be \\(d \\times d\\):\n\nbs,d = 32,100\nz1norm=torch.rand(32,100)\nz1norm_2=torch.rand(32,100)\nz2norm=torch.rand(32,100)\nz2norm_2=torch.rand(32,100)\n\ntest_eq(C_z1z2(z1norm,z1norm_2,z2norm,z2norm_2,bs).shape, (d,d))\n\n\nsource\n\n\nMax_Corr\n\n Max_Corr (ps)\n\nA pair of feedforward nets with one hidden layer\n\nsource\n\n\nCdiff_Sup\n\n Cdiff_Sup (I, inner_steps, bs)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n## | hide\nimport nbdev; nbdev.nbdev_export()"
+  }
+]
