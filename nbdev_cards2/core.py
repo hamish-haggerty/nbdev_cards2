@@ -24,7 +24,7 @@ def C_z1z2(z1norm,z1norm_2,z2norm,z2norm_2,bs):
 class Max_Corr(nn.Module):
     """A pair of feedforward nets with one hidden layer
     """
-    def __init__(self):
+    def __init__(self,ps):
         super().__init__()
         self.fc1 = nn.Linear(ps,ps) #fc1 and fc2 belong to the first net
         self.fc2 = nn.Linear(ps,ps)
